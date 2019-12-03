@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Мастаах Yрдэлэ</title>
+	<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/styleyrdel.css" rel="stylesheet">
+</head>
+<body>
+	<header class="main-header">
+		<div class="header-up">
+			<div class="container clearfix">
+				<div class="logo">
+					<span><a href="index.html">МастааХYрдэлэ</a></span>
+				</div>
+				<div class="search">
+					<form>
+						<input type="search" id="search" name="search" placeholder="Поиск:">
+						<label class="search-label" for="search"></label>
+					</form>
+				</div>		
+			</div>	
+		</div>
+		<div class="header-down">
+			<div class="container clearfix">
+				<p class="title">
+					Нет победителя сильнее того,<br>
+                    кто сумел победить самого себя.<br>
+                    Г. Бичер
+				</p>
+				<div class="data">
+					<div class="telephone">
+						<p>+7 (41132) 22-3-38</p>	
+					</div>
+					<div class="address">
+						<p>	c.Балагаччы, ул.Миронова, д.8А</p>
+					</div>
+				</div>
+				<div class="user-block">
+					<a class="login js-login" href="#login">Войти</a>
+                    <a class="registration" href="#registration">Регистрация</a>
+				</div>
+			</div>
+			<div class="container clearfix">
+			    <nav class="main-navigation">
+				    <ul>
+					    <li><a href="index.html">Главная</a></li>
+					    <li><a href="#">Школы</a></li>
+					    <li><a href="children.html">Учащиеся</a></li>
+					    <li><a href="#">Анкеты</a></li>
+					    <li><a href="#">Новости</a></li>
+					    <li><a href="#">10 лучших</a></li>
+					    <li><a href="#">Контакты</a></li>
+				    </ul>
+			    </nav>
+		    </div>
+		</div>
+	</header>
+	<main>
+		<h1 class="visually-hidden">МастааХ Yрдэлэ</h1>
+		<div class="container">
+			<div class="block-1">
+				<section class="top-10">
+					<div class="canvas">
+					    <canvas class="chart" id="popChart" height="420"></canvas>
+				    </div>
+					<div>
+						<table class="table-top10">
+							<caption class="top10-title">10 лучших учеников</caption>
+						    <tr>
+						    	<th class="step">Место</th>
+						    	<th></th>
+						    	<th class="name">Фамилия Имя</th>
+						    	<th class="level">Уровень</th>
+						    </tr>
+							<tr>
+								<td class="step">1</td>
+								<td class="top10-image"><img src="img/1.jpg" width="40" height="40" alt="Ученик"></td>
+								<td class="name"><span>Иванов Иван</span></td>
+								<td  class="level"><span>A</span></td>
+							</tr>
+							<tr>
+								<td class="step">2</td>
+								<td class="top10-image"><img src="img/2.jpg" width="40" height="40" alt="Ученик"></td>
+								<td class="name"><span>Петров Петр</span></td>
+								<td  class="level"><span>A</span></td>
+							</tr>
+							<tr>
+								<td class="step">3</td>
+								<td class="top10-image"><img src="img/3.jpg" width="40" height="40" alt="Ученик"></td>
+								<td class="name"><span>Алексеева Алиса</span></td>
+								<td  class="level"><span>A</span></td>
+							</tr>
+							<tr>
+								<td class="step">4</td>
+								<td class="top10-image"><img src="img/4.jpg" width="40" height="40" alt="Ученик"></td>
+								<td class="name"><span>Алексеева Анна</span></td>
+								<td  class="level"><span>A</span></td>
+							</tr>
+							<tr>
+								<td class="step">5</td>
+								<td class="top10-image"><img src="img/5.jpg" width="40" height="40" alt="Ученик"></td>
+								<td class="name"><span>Семенов Семен</span></td>
+								<td  class="level"><span>A</span></td>
+							</tr>
+							<tr>
+								<td class="step">6</td>
+								<td class="top10-image"><img src="img/6.jpg" width="40" height="40" alt="Ученик"></td>
+								<td class="name"><span>Васильева Василиса</span></td>
+								<td  class="level"><span>B</span></td>
+							</tr>
+							<tr>
+								<td class="step">7</td>
+								<td class="top10-image"><img src="img/7.jpg" width="40" height="40" alt="Ученик"></td>
+								<td class="name"><span>Махайлов Михаил</span></td>
+								<td  class="level"><span>B</span></td>
+							</tr>
+							<tr>
+								<td class="step">8</td>
+								<td class="top10-image"><img src="img/8.jpg" width="40" height="40" alt="Ученик"></td>
+								<td class="name"><span>Максимова Мария</span></td>
+								<td  class="level"><span>B</span></td>
+							</tr>
+							<tr>
+								<td class="step">9</td>
+								<td class="top10-image"><img src="img/9.jpg" width="40" height="40" alt="Ученик"></td>
+								<td class="name"><span>Яковлев Яков</span></td>
+								<td  class="level"><span>B</span></td>
+							</tr>
+							<tr>
+								<td class="step">10</td>
+								<td class="top10-image"><img src="img/10.jpg" width="40" height="40" alt="Ученик"></td>
+								<td class="name"><span>Андреева Алина</span></td>
+								<td  class="level"><span>B</span></td>
+							</tr>
+						</table>
+					</div>
+				</section>
+			</div>
+			
+		</div>
+		<div class="block-2">
+			<div class="container">
+				<section class="about clearfix">
+					<div class="about-style">
+					<p>&nbsp&nbsp&nbsp&nbsp<span class="text-logo">МастааХУрдэлэ</span> – это уникальная рейтинговая система оценки достижений обучающихся трех школ Мастахской сети (Мастахская СОШ, Хагынская СОШ, Кыргыдайская СОШ) как средство реализации принципов подхода в образовании, которая нацелена на стимулирование самостоятельной работы обучающихся, активизацию конкурентоспособности, улучшение обратной связи «преподаватель-обучающийся» с целью дальнейшего совершенствования учебного процесса.
+                    <br>
+                    &nbsp&nbsp&nbsp&nbspРейтинг строится как система поощрений, а не наказаний. Это значит, что каждый положительный результат, например, высокая оценка на экзамене или призовое место на олимпиаде, повышает балл школы и отдельно ученика. За низкие оценки и отсутствие победителей уменьшение не предусмотрено.
+                    <br>
+                    &nbsp&nbsp&nbsp&nbspПри этом параметры рейтинга охватывают огромный спектр образовательных результатов — от ЕГЭ и ОГЭ и олимпиад по различным предметам до спортивных результатов и конкурсов профессионального мастерства WorldSkills. Такая методика стимулирует школы не отталкивать детей, а проводить работу с каждым ребёнком, развивать их способности и таланты и находить области успеха. Таким образом, никакой ученик не может снизить рейтинг школы, но каждый может его повысить. Занимаясь тем, что ему действительно интересно, каждый ребёнок будет получать удовольствие от учёбы, а школа — дополнительные баллы за его результаты.
+                    <br>
+                    &nbsp&nbsp&nbsp&nbspРасчёт рейтинга происходит по 5 критериям:</p>
+                    <ul>
+                    	<li>Олимпиады</li>
+                    	<li>Научно-практические конференции</li>
+                    	<li>Итоговые оценки в четверти</li>
+                    	<li>Спортивные успехи</li>
+                    	<li>Творческие успехи</li>
+                    </ul>
+                    <p>&nbsp&nbsp&nbsp&nbspТакже учитываются занимаемые места: 1 ,2,3 место или просто участие в следующих масштабах мероприятий:</p>
+                    <ul>
+                    	<li>Улусного масштаба</li>
+                    	<li>Регионального масштаба</li>
+                    	<li>Республиканского масштаба</li>
+                    	<li>Всероссийского масштаба</li>
+                    	<li>Международного масштаба</li>
+                    </ul>
+                    <p>&nbsp&nbsp&nbsp&nbspКаждый критерий переводим в баллы и рассчитываем по пятибалльной шкале, беря средний арифметический балл. Результат вывода рейтинга в процентах.</p> 
+                    <ul>
+                    	<li>Уровень A - от 70%</li>
+                    	<li>Уровень B - от 30% до 69%</li>
+                    	<li>Уровень С - до 29%</li>
+                    </ul>
+                    <p>&nbsp&nbsp&nbsp&nbspУровень успеха - это ориентир развития каждой школы. Числовые параметры выражают ключевые принципы, по которым оценивается работа учебных заведений.
+                    </p>
+                    </div>
+                    <div class="school-block">
+                    	<input type="radio" id="button-1" name="school-toggle" checked="">
+                        <input type="radio" id="button-2" name="school-toggle">
+                        <input type="radio" id="button-3" name="school-toggle">
+                        <div class="school-toggle">
+                        	<label for="button-1">Мастахская СОШ</label>
+                            <label for="button-2">Хагынская СОШ</label>
+                            <label for="button-3">Кыргыдайская СОШ</label>
+                        </div>
+                        <div class="school-block-right">
+                        	<div class="school-touch-button Mastah">
+                        		<span>МБОУ "Мастахская СОШ"</span>
+                                <p>Мастахская школа в селе Балагаччы впервые открылась в 1915 году.<br>
+                                	Сейчас при школе действуют структурные подразделения, дошкольные<br>
+                                	 группы с 2017 года и Центр цифрового и гуманитарного профиля <br>
+                                	 «Точка Роста» с 2019 года.
+                                </p>
+                        	</div>
+                        	<div class="school-touch-button Hagun">
+                        		<span>МБОУ "Хагынская СОШ"</span>
+                                <p>Хагынская школа в селе Хагын открылась в 1931 году.<br>
+                                	Всего детей 75.
+                                </p>
+                        	</div>
+                        	<div class="school-touch-button Kurgudai">
+                        		<span>МБОУ "Кыргыдайская СОШ"</span>
+                                <p>Кыргыдайская школа в селе Кыргыдай открылась в 1928 году.<br>
+                                	В 2007 году школа получила награду «Школа года России -2007».<br>
+                                	Всего детей 74.
+                                </p>
+                        	</div>
+                        </div>
+                    </div>
+				</section>
+			</div>
+		</div>
+		<div class="block-3">
+			<div class="container">
+				<div class="items">
+					<div class="science-list">
+						<ul>
+							<li>
+							    <div class="category">
+								    <div><a class="category-button" href="#">Олимпиады</a></div>
+								    <div class="category-image"><img src="img/olimp.png" width="54" height="65" alt="Олимпиады"></div>
+							    </div>
+						    </li>
+							<li>
+							    <div class="category">
+								    <div><a class="category-button" href="#">НПК</a></div>
+								    <div class="category-image"><img src="img/NPK.png" width="60" height="65" alt="НПК"></div>
+							    </div>
+						    </li>
+							<li>
+							    <div class="category">
+								    <div><a class="category-button" href="#">Оценки</a></div>
+								    <div class="category-image"><img src="img/grades.png" width="60" height="65" alt="Оценки"></div>
+							    </div>
+						    </li>
+						</ul>
+					</div>
+					<div class="activities">
+						<ul>
+							<li>
+								<h2 class="visually-hidden">Галерея новостей</h2>
+								<div class="slider">
+									<input type="radio" id="btn-1" name="toggle" checked="">
+                                    <input type="radio" id="btn-2" name="toggle">
+                                    <div class="slider-controls">
+                                        <label for="btn-1"></label>
+                                        <label for="btn-2"></label>
+                                    </div>
+                                    <label class="arrow-left" for="btn-1"></label>
+                                    <label class="arrow-right" for="btn-2"></label>
+                                    <div class="slides">
+                                    	<div class="slide">
+                                    		<div class="text-main">
+                                                <h2 class="text">ПроеКТОрия</h2>
+            		                         	<span>Форум в Ярославле 2019г</span>
+                                            </div>
+                                    	</div>
+                                    	<div class="slide">
+                                    		<div class="text-main">
+                                                <h2 class="text">Точка роста</h2>
+            		                         	<span>Открытие 2019г</span>
+                                            </div>
+                                    	</div>
+                                    </div>
+								</div>
+							</li>
+							<li>
+								<div class="activity-list">
+									<ul>
+										<li>
+											<div class="category">
+								                <div><a class="category-button" href="#">Спорт</a></div>
+								                <div class="category-image"><img src="img/sport.png" width="60" height="65" alt="Спорт"></div>
+							                </div>
+										</li>
+										<li>
+											<div class="category">
+								                <div><a class="category-button" href="#">Творчество</a></div>
+								                <div class="category-image"><img src="img/art.png" width="60" height="65" alt="Творчество"></div>
+							                </div>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="block-4">
+			<div class="container">
+			<div class="children">
+				<span>Учащиеся</span>
+				<a class="btn" href="children.html">Открыть список</a>
+			</div>
+			<div class="top4-list">
+				<ul>
+					<li>
+						<div class="child">
+							<div class="child-image">
+								<img src="img/1.jpg" width="184" height="164" alt="Иванов Иван">
+							</div>
+							<div class="child-description">
+								<p class="child-name">Иванов Иван</p>
+                                <p class="child-school">МБОУ «Мастахская СОШ»</p>
+                                <p class="child-level">Уровень А</p>
+                            </div>
+                            <div class="child-action">
+								<ul>
+									<li><img src="img/olimpiada.png" width="15" height="15" alt="место в олимпиаде">Олимпиада по истории – 2 место по респ.
+									</li>
+									<li><img src="img/npk1.png" width="15" height="15" alt="место в нпк">НПК «Шаг в будущее» – 1 место в улусе.</li>
+									<li><img src="img/grades.jpg" width="15" height="15" alt="успеваемость">Отличник </li>
+									<li><img src="img/art.jpg" width="15" height="15" alt="Творчество">Оhуохай</li>
+								</ul>
+								<a class="btn profile" href="">Изменить</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="child">
+							<div class="child-image">
+								<img src="img/2.jpg" width="184" height="164" alt="Петров Петр">
+							</div>
+							<div class="child-description">
+								<p class="child-name">Петров Петр</p>
+                                <p class="child-school">МБОУ «Мастахская СОШ»</p>
+                                <p class="child-level">Уровень А</p>
+                            </div>
+                            <div class="child-action">
+								<ul>
+									<li><img src="img/olimpiada.png" width="15" height="15" alt="место в олимпиаде">Олимпиада по русскому  языку – 2 место по регион.
+									</li>
+									<li><img src="img/npk1.png" width="15" height="15" alt="место в нпк">НПК «Шаг в будущее» – 3 место в улусн.</li>
+									<li><img src="img/grades.jpg" width="15" height="15" alt="успеваемость">Отличник </li>
+									<li><img src="img/sport.jpg" width="15" height="15" alt="спорт">Бег – 1 место в регионе</li>
+								</ul>
+								<a class="btn profile" href="">Изменить</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="child">
+							<div class="child-image">
+								<img src="img/3.jpg" width="184" height="164" alt="Алексеева Алиса">
+							</div>
+							<div class="child-description">
+								<p class="child-name">Алексеева Алиса</p>
+                                <p class="child-school">МБОУ «Хагынская СОШ»</p>
+                                <p class="child-level">Уровень А</p>
+                            </div>
+                            <div class="child-action">
+								<ul>
+									<li><img src="img/olimpiada.png" width="15" height="15" alt="место в олимпиаде">Олимпиада по математике – 2 место по улусе
+                                    </li>
+									<li><img src="img/npk1.png" width="15" height="15" alt="место в нпк">НПК «Шаг в будущее» – 3 место</li>
+									<li><img src="img/grades.jpg" width="15" height="15" alt="успеваемость">Хорошист </li>
+									<li><img src="img/sport.jpg" width="15" height="15" alt="спорт">Всероссийский шахмат – 3 место</li>
+								</ul>
+								<a class="btn profile" href="">Изменить</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="child">
+							<div class="child-image">
+								<img src="img/4.jpg" width="184" height="164" alt="Алексеева Анна">
+							</div>
+							<div class="child-description">
+								<p class="child-name">Алексеева Анна</p>
+                                <p class="child-school">МБОУ «Кыргыдайская СОШ»</p>
+                                <p class="child-level">Уровень А</p>
+                            </div>
+                            <div class="child-action">
+								<ul>
+									<li><img src="img/olimpiada.png" width="15" height="15" alt="место в олимпиаде">Олимпиада по химии – 2 место по улусе
+                                    </li>
+									<li><img src="img/npk1.png" width="15" height="15" alt="место в нпк">НПК «Шаг в будущее» – 3 место в улусе</li>
+									<li><img src="img/grades.jpg" width="15" height="15" alt="успеваемость">Хорошист </li>
+									<li><img src="img/art.jpg" width="15" height="15" alt="Творчество">Вокал 3 место</li>
+								</ul>
+								<a class="btn profile" href="">Изменить</a>
+							</div>		
+						</div>
+					</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+		<section class="modal modal-sign-in">
+			<h2 class="modal-title">Вход</h2>
+			<button class="modal-content-close-sign-in" type="button">
+            <span class="visually-hidden">Закрыть</span>
+            </button>
+            <form class="form-sign-in">
+            	<div class="form-data">
+            	<div class="data-sign-in">
+            		<p>
+            			<label>
+            				<span>Ваш логин:</span><br>
+                            <input type="text"  name="name" placeholder="login">
+            			</label>
+            		</p>
+            		<p>
+            			<label>
+            				<span>Ваш пароль:</span><br>
+                            <input type="password"  name="password" placeholder="******">
+            			</label>
+            		</p>
+            	</div>
+            	</div>
+            	<div class="form-btn">
+                    <button class="btn" type="submit" title="Войти">Войти</button>
+                </div>
+            </form>
+		</section>
+		<section class="modal modal-registration">
+			<h2 class="modal-title">Регистрация</h2>
+			<button class="modal-content-close-registration" type="button">
+            <span class="visually-hidden">Закрыть</span>
+            </button>
+            <form class="form-registration">
+            	<div class="data-sign">
+            		<p>
+            			<label>
+            				<span>Ваш логин:</span><br>
+                            <input type="text"  name="name" placeholder="login">
+            			</label>
+            		</p>
+            		<p>
+            			<label>
+            				<span>Ваш пароль:</span><br>
+                            <input type="text"  name="name" placeholder="******">
+            			</label>
+            		</p>
+            	</div>
+            	<div class="data-registration">
+            		<p>
+            			<label>
+            				<span>Эл. почта:</span><br>
+                            <input type="text"  name="name" placeholder="xxx@mail.ru">
+            			</label>
+            		</p>
+                    <p>
+            			<label>
+            				<span>ФИО:</span><br>
+                            <input type="text"  name="name" placeholder="ФИО">
+            			</label>
+            		</p>
+            		<p>
+            			<label>
+            				<span>Должность в школе:</span><br>
+                            <input type="text"  name="name" placeholder="Должность">
+            			</label>
+            		</p>
+            	</div>
+            	<div class="form-btn">
+                    <button class="btn" type="submit" title="Зарегистрироваться">Зарегистрироваться</button>
+                </div>
+            </form>
+		</section>
+		<div class="overlay"></div>
+	</main>
+	<footer class="main-footer">
+		<div class="footer-up">
+			<div class="container clearfix">
+				<div class="left-footer-up">
+					<div class="logo-footer">
+						<span><a>МастааХYрдэлэ</a></span>
+					</div>
+					<div class="address-footer">
+						<p> с.Балагаччы, ул.Миронова, д.8А</p>
+  	 	                <p>+7 (41132) 22-3-38</p>
+					</div>
+				</div>
+				<div class="right-footer-up">
+					<nav class="footer-navigation">
+                        <ul class="footer-navigation-list">
+       			            <li><a href="">Олимпиады</a></li>
+       			            <li><a href="">НПК</a></li>
+       			            <li><a href="">Оценки</a> </li>
+       			            <li><a href="">Спорт</a></li>
+       			            <li><a href="">Творчество</a></li>
+       		            </ul>
+                    </nav>
+				</div>
+			</div>
+		</div>
+		<div class="footer-down">
+			<div class="container clearfix">
+				<div class="copyright">
+					<p>© 1915-2019 МБОУ "Мастахская СОШ"<br>
+  				    Все права защищены</p>
+				</div>
+				<div class="social">
+					<ul>
+  				        <li><a class="vk" href="#"></a></li>
+   			            <li><a class="fb" href="#"></a></li>
+   			            <li><a class="inst" href="#"></a></li>
+  			        </ul>
+				</div>
+				<div class="communication">
+					<div class="feedback">
+   		                <p>Обратная связь:</p>    
+                    </div>
+  				    <div class="mail">
+                        <a href="">schmastah@rambler.ru</a>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/Chartmin.js"></script>
+	<script src="js/diagram.js"></script>
+	<script src="js/login.js"></script>
+</body>
+</html>
