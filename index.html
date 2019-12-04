@@ -13,7 +13,7 @@
 		<div class="header-up">
 			<div class="container clearfix">
 				<div class="logo">
-					<span><a href="index.html">МастааХYрдэлэ</a></span>
+					<span><a href="index.html">Мастаа<span class="decart">ХY</span>рдэлэ</a></span>
 				</div>
 				<div class="search">
 					<form>
@@ -145,13 +145,18 @@
 			<div class="container">
 				<section class="about clearfix">
 					<div class="about-style">
-					<p>&nbsp&nbsp&nbsp&nbsp<span class="text-logo">МастааХУрдэлэ</span> – это уникальная рейтинговая система оценки достижений обучающихся трех школ Мастахской сети (Мастахская СОШ, Хагынская СОШ, Кыргыдайская СОШ) как средство реализации принципов подхода в образовании, которая нацелена на стимулирование самостоятельной работы обучающихся, активизацию конкурентоспособности, улучшение обратной связи «преподаватель-обучающийся» с целью дальнейшего совершенствования учебного процесса.
+					<p>
+					<div class="school-canvas">
+                    	<canvas class="school-chart" id="popSchoolChart" height="250"></canvas>
+                    </div>
+					&nbsp&nbsp&nbsp&nbsp<span><a href="index.html">Мастаа<span class="decart">ХY</span>рдэлэ</a></span> – это уникальная рейтинговая система оценки достижений обучающихся трех школ Мастахской сети (Мастахская СОШ, Хагынская СОШ, Кыргыдайская СОШ) как средство реализации принципов подхода в образовании, которая нацелена на стимулирование самостоятельной работы обучающихся, активизацию конкурентоспособности, улучшение обратной связи «преподаватель-обучающийся» с целью дальнейшего совершенствования учебного процесса.
                     <br>
                     &nbsp&nbsp&nbsp&nbspРейтинг строится как система поощрений, а не наказаний. Это значит, что каждый положительный результат, например, высокая оценка на экзамене или призовое место на олимпиаде, повышает балл школы и отдельно ученика. За низкие оценки и отсутствие победителей уменьшение не предусмотрено.
                     <br>
                     &nbsp&nbsp&nbsp&nbspПри этом параметры рейтинга охватывают огромный спектр образовательных результатов — от ЕГЭ и ОГЭ и олимпиад по различным предметам до спортивных результатов и конкурсов профессионального мастерства WorldSkills. Такая методика стимулирует школы не отталкивать детей, а проводить работу с каждым ребёнком, развивать их способности и таланты и находить области успеха. Таким образом, никакой ученик не может снизить рейтинг школы, но каждый может его повысить. Занимаясь тем, что ему действительно интересно, каждый ребёнок будет получать удовольствие от учёбы, а школа — дополнительные баллы за его результаты.
                     <br>
                     &nbsp&nbsp&nbsp&nbspРасчёт рейтинга происходит по 5 критериям:</p>
+                    <details>
                     <ul>
                     	<li>Олимпиады</li>
                     	<li>Научно-практические конференции</li>
@@ -175,6 +180,7 @@
                     </ul>
                     <p>&nbsp&nbsp&nbsp&nbspУровень успеха - это ориентир развития каждой школы. Числовые параметры выражают ключевые принципы, по которым оценивается работа учебных заведений.
                     </p>
+                    </details>
                     </div>
                     <div class="school-block">
                     	<input type="radio" id="button-1" name="school-toggle" checked="">
@@ -258,7 +264,7 @@
                                             </div>
                                     	</div>
                                     	<div class="slide">
-                                    		<div class="text-main">
+                                    		<div class="text-main-two">
                                                 <h2 class="text">Точка роста</h2>
             		                         	<span>Открытие 2019г</span>
                                             </div>
@@ -312,10 +318,12 @@
 									<li><img src="img/olimpiada.png" width="15" height="15" alt="место в олимпиаде">Олимпиада по истории – 2 место по респ.
 									</li>
 									<li><img src="img/npk1.png" width="15" height="15" alt="место в нпк">НПК «Шаг в будущее» – 1 место в улусе.</li>
-									<li><img src="img/grades.jpg" width="15" height="15" alt="успеваемость">Отличник </li>
-									<li><img src="img/art.jpg" width="15" height="15" alt="Творчество">Оhуохай</li>
+									<li><img src="img/osenki.png" width="15" height="15" alt="успеваемость">Отличник </li>
+									<li><img src="img/creative.png" width="15" height="15" alt="Творчество">Оhуохай</li>
 								</ul>
-								<a class="btn profile" href="">Изменить</a>
+								<div class="profile">
+									<a class="btn js-edit" href="">Изменить</a>
+								</div>
 							</div>
 						</div>
 					</li>
@@ -334,10 +342,12 @@
 									<li><img src="img/olimpiada.png" width="15" height="15" alt="место в олимпиаде">Олимпиада по русскому  языку – 2 место по регион.
 									</li>
 									<li><img src="img/npk1.png" width="15" height="15" alt="место в нпк">НПК «Шаг в будущее» – 3 место в улусн.</li>
-									<li><img src="img/grades.jpg" width="15" height="15" alt="успеваемость">Отличник </li>
-									<li><img src="img/sport.jpg" width="15" height="15" alt="спорт">Бег – 1 место в регионе</li>
+									<li><img src="img/osenki.png" width="15" height="15" alt="успеваемость">Отличник </li>
+									<li><img src="img/sport.png" width="15" height="15" alt="спорт">Бег – 1 место в регионе</li>
 								</ul>
-								<a class="btn profile" href="">Изменить</a>
+								<div class="profile">
+									<a class="btn js-edit" href="">Изменить</a>
+								</div>
 							</div>
 						</div>
 					</li>
@@ -356,10 +366,12 @@
 									<li><img src="img/olimpiada.png" width="15" height="15" alt="место в олимпиаде">Олимпиада по математике – 2 место по улусе
                                     </li>
 									<li><img src="img/npk1.png" width="15" height="15" alt="место в нпк">НПК «Шаг в будущее» – 3 место</li>
-									<li><img src="img/grades.jpg" width="15" height="15" alt="успеваемость">Хорошист </li>
-									<li><img src="img/sport.jpg" width="15" height="15" alt="спорт">Всероссийский шахмат – 3 место</li>
+									<li><img src="img/osenki.png" width="15" height="15" alt="успеваемость">Хорошист </li>
+									<li><img src="img/sport.png" width="15" height="15" alt="спорт">Всероссийский шахмат – 3 место</li>
 								</ul>
-								<a class="btn profile" href="">Изменить</a>
+								<div class="profile">
+									<a class="btn js-edit" href="">Изменить</a>
+								</div>
 							</div>
 						</div>
 					</li>
@@ -378,10 +390,12 @@
 									<li><img src="img/olimpiada.png" width="15" height="15" alt="место в олимпиаде">Олимпиада по химии – 2 место по улусе
                                     </li>
 									<li><img src="img/npk1.png" width="15" height="15" alt="место в нпк">НПК «Шаг в будущее» – 3 место в улусе</li>
-									<li><img src="img/grades.jpg" width="15" height="15" alt="успеваемость">Хорошист </li>
-									<li><img src="img/art.jpg" width="15" height="15" alt="Творчество">Вокал 3 место</li>
+									<li><img src="img/osenki.png" width="15" height="15" alt="успеваемость">Хорошист </li>
+									<li><img src="img/creative.png" width="15" height="15" alt="Творчество">Вокал 3 место</li>
 								</ul>
-								<a class="btn profile" href="">Изменить</a>
+								<div class="profile">
+									<a class="btn js-edit" href="">Изменить</a>
+								</div>
 							</div>		
 						</div>
 					</li>
@@ -468,7 +482,7 @@
 			<div class="container clearfix">
 				<div class="left-footer-up">
 					<div class="logo-footer">
-						<span><a>МастааХYрдэлэ</a></span>
+						<span><a href="index.html">Мастаа<span class="decart">ХY</span>рдэлэ</a></span>
 					</div>
 					<div class="address-footer">
 						<p> с.Балагаччы, ул.Миронова, д.8А</p>
@@ -514,6 +528,7 @@
 	</footer>
 	<script src="js/Chartmin.js"></script>
 	<script src="js/diagram.js"></script>
+	<script src="js/school-diagram.js"></script>
 	<script src="js/login.js"></script>
 </body>
 </html>

@@ -1,5 +1,7 @@
 var link=document.querySelector(".js-login");
+var edit=document.querySelector(".js-edit");
 var popup=document.querySelector(".modal-sign-in");
+var button=document.querySelector(".profile");
 var close=document.querySelector(".modal-content-close-sign-in");
 var login=document.querySelector("[name=name]");
 var password=document.querySelector("[name=password]");
@@ -47,6 +49,7 @@ form.addEventListener("submit",function(evt)
  	if(isStorageSupport){
  localStorage.setItem("login",login.value);
  }
+
  }
 });
 

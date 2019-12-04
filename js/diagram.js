@@ -1,7 +1,7 @@
 var popCanvas = document.getElementById("popChart");
 
 Chart.defaults.global.defaultFontFamily = "PT Sans";
-Chart.defaults.global.defaultFontSize = 16;
+Chart.defaults.global.defaultFontSize = 14;
 Chart.defaults.global.defaultFontColor = 'rgba(79, 23, 73, 1)';
 
 var barChart = new Chart(popCanvas, {
@@ -12,17 +12,17 @@ var barChart = new Chart(popCanvas, {
       label: 'Уровень',
       data: [93, 88, 77, 74, 71, 64, 59, 50, 48, 41],
       backgroundColor: [
-        'rgba(197, 199, 53, 0.6)',
-        'rgba(197, 199, 53, 0.6)',
-        'rgba(197, 199, 53, 0.6)',
-        'rgba(197, 199, 53, 0.6)',
-        'rgba(197, 199, 53, 0.6)',
-        'rgba(112, 112, 106, 0.6)',
-        'rgba(112, 112, 106, 0.6)',
-        'rgba(112, 112, 106, 0.6)',
-        'rgba(112, 112, 106, 0.6)',
-        'rgba(112, 112, 106, 0.6)',
-        'rgba(112, 112, 106, 0.6)'
+        'rgba(197, 199, 53, 0.8)',
+        'rgba(197, 199, 53, 0.8)',
+        'rgba(197, 199, 53, 0.8)',
+        'rgba(197, 199, 53, 0.8)',
+        'rgba(197, 199, 53, 0.8)',
+        'rgba(112, 112, 106, 0.8)',
+        'rgba(112, 112, 106, 0.8)',
+        'rgba(112, 112, 106, 0.8)',
+        'rgba(112, 112, 106, 0.8)',
+        'rgba(112, 112, 106, 0.8)',
+        'rgba(112, 112, 106, 0.8)'
       ]
     }]
   }
