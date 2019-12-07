@@ -1,7 +1,9 @@
 var link=document.querySelector(".js-login");
-var edit=document.querySelector(".js-edit");
 var popup=document.querySelector(".modal-sign-in");
-var button=document.querySelector(".profile");
+var adding=document.querySelector(".add-progress");
+var edit=document.querySelector(".info-edit");
+var off=document.querySelector(".user-block");
+var teach=document.querySelector(".teacher-block");
 var close=document.querySelector(".modal-content-close-sign-in");
 var login=document.querySelector("[name=name]");
 var password=document.querySelector("[name=password]");
@@ -41,15 +43,22 @@ close.addEventListener("click",function(evt)
 
 form.addEventListener("submit",function(evt)
 {
+	evt.preventDefault();
  if(!login.value || !password.value){
- evt.preventDefault();
+
  popup.classList.add("modal-error");
  }
  else{
  	if(isStorageSupport){
  localStorage.setItem("login",login.value);
- }
-
+ };
+ adding.classList.add("add-progress-show");
+ edit.classList.add("info-edit-show");
+ off.classList.add("user-block-hide");
+ teach.classList.add("teacher-block-show");
+ popup.classList.remove("modal-show-sign-in");
+ popup.classList.remove("modal-error");
+ overlay.classList.remove("overlay-show");
  }
 });
 

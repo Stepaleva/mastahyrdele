@@ -9,8 +9,8 @@ var barSchoolChart = new Chart(popSchoolCanvas, {
   data: {
     labels: ["Мастахская СОШ", "Хагынская СОШ", "Кыргыдайская СОШ"],
     datasets: [{
-      label: 'Уровень школы',
-      data: [73, 65.7, 59],
+      label: 'Рейтинг школы',
+      data: [70.0044, 69.777, 69.789],
       backgroundColor: [
         'rgba(147, 39, 214, 0.9)',
         'rgba(147, 39, 214, 0.9)',
