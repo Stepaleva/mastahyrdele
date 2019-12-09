@@ -1214,12 +1214,13 @@ list-style:none;
   height: 3170px;
 }
 .modal-sign-in{
-  display: block; 
+  display: none; 
 }
 .modal-title{
   padding: 0 80px;
 }
 .modal-show-sign-in{
+  display: block;
   position:fixed;
   top:5%;
   left:50%;
